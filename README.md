@@ -41,7 +41,8 @@ Using IaC ensures reproducibility, version control, and automated deployments. T
 
 ## 3. Architecture Overview
 <a name="#3-architecture-overview"></a>      
-<img width="2028" height="1049" alt="WebApp_EmailAlarm_SSMConnect drawio(1)" src="https://github.com/user-attachments/assets/7dbff49e-2482-492d-9902-2619b60d88c5" />   
+ <img width="919" height="651" alt="Secure_Static_Website" src="https://github.com/user-attachments/assets/efec3be1-6e09-45f7-8f53-4534db1a6806" />
+
       
 ### Main Components: 
 
