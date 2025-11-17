@@ -1,5 +1,5 @@
-#name: Check s3 bucket privacy
-#on:
+name: Check s3 bucket privacy
+on:
   push:
     branches:
       - webdev
