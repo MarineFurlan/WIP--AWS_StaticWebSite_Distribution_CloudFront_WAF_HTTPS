@@ -32,9 +32,11 @@ Security and monitoring are handled with WAF (Web Application Firewal) to restri
 ## 2. Design Decisions   
 <a name="#2-design-decisions"></a>
 ### <ins>Terraform</ins>
-Using IaC ensures reproducibility, version control, and automated deployments. The infrastructure can be deployed or destroyed with a single command, optimizing costs and agility.   
+Using IaC ensures reproducibility, version control, and automated deployments. The infrastructure can be deployed or destroyed with a single command, optimizing costs and agility.
 
+### <ins>GitHub feature branches<ins>
 
+### <ins>GitHub Actions<ins>
 <br/>
 <br/>
 <br/>
@@ -76,6 +78,18 @@ Using IaC ensures reproducibility, version control, and automated deployments. T
 <br/>
 
 - **_Reproducibility_**: 
+
+<br/>
+
+- **_Isolation_**:
+
+<br/>
+
+- **_Collaboration_**:
+
+<br/>
+
+- **_CI/CD_**:
 
 <br/>
 <br/>
