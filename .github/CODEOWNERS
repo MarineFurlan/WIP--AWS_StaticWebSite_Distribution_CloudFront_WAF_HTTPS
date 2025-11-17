@@ -2,7 +2,7 @@
 /website/ @team-web
 
 # WAF team
-/infrastructure/waf/ @team-waf
+/infrastructure/modules/waf/ @team-waf
 
 # Distribution team
 /infrastructure/modules/distribution/ @team-distribution
