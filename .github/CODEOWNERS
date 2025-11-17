@@ -1,0 +1,11 @@
+# Website team
+/website/ @team-web
+
+# WAF team
+/infrastructure/waf/ @team-waf
+
+# Distribution team
+/infrastructure/modules/distribution/ @team-distribution
+
+# Global config
+/ @admin-team
