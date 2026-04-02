@@ -83,12 +83,3 @@ resource "aws_s3_bucket_policy" "policy" {
   bucket = aws_s3_bucket.site.id
   policy = data.aws_iam_policy_document.allow_cloudfront_oac.json
 }
-
-
-/*
-# Optionnel : server access logs
-resource "aws_s3_bucket" "access_logs" {
-  count  = var.enable_access_logs ? 1 : 0
-  bucket = "${var.bucket_name}-access-logs"
-  acl    = "log-delivery-write"
-}*/

@@ -54,13 +54,3 @@ module "waf" {
   name = var.waf_name
 
 }
-
-
-### === GITHUB ACTIONS === ###
-module "github_oidc" {
-  source        = "modules/iam_github_oidc"
-  role_name     = var.github_role_name
-  github_repo   = var.github_repo
-  branch        = var.github_branch
-  s3_bucket_arn = module.website.bucket_arn
-}
