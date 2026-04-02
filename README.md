@@ -34,13 +34,6 @@ Security and monitoring are handled with WAF (Web Application Firewal) to restri
 ### <ins>Terraform</ins>
 Using IaC ensures reproducibility, version control, and automated deployments. The infrastructure can be deployed or destroyed with a single command, optimizing costs and agility.
 
-### <ins>GitHub feature branches<ins>
-
-### <ins>GitHub Actions<ins>
-<br/>
-<br/>
-<br/>
-
 ## 3. Architecture Overview
 <a name="#3-architecture-overview"></a>      
  <img width="919" height="651" alt="Secure_Static_Website" src="https://github.com/user-attachments/assets/38a5c607-94cd-45f9-82d9-54ac223445c0" />
@@ -76,19 +69,11 @@ Using IaC ensures reproducibility, version control, and automated deployments. T
 
 <br/>
 
-- **_Reproducibility_**: 
+- **_Reproductibility_**: 
 
 <br/>
 
 - **_Isolation_**:
-
-<br/>
-
-- **_Collaboration_**:
-
-<br/>
-
-- **_CI/CD_**:
 
 <br/>
 <br/>
