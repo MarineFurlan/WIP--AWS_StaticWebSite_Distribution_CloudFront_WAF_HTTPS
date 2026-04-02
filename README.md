@@ -5,7 +5,7 @@
 &emsp;<img width="75" height="86" alt="Terraform-Logo" src="https://github.com/user-attachments/assets/b037706b-3866-4376-9b2d-55c91b6dafc0" />
 
 
-## Sommaire
+## Table of content
 - [Introduction](#1-introduction)
 - [Design Decisions](#2-design-decisions)
 - [Architecture Overview](#3-architecture-overview)
@@ -43,7 +43,8 @@ Using IaC ensures reproducibility, version control, and automated deployments. T
 
 ## 3. Architecture Overview
 <a name="#3-architecture-overview"></a>      
- <img width="919" height="651" alt="Secure_Static_Website" src="https://github.com/user-attachments/assets/efec3be1-6e09-45f7-8f53-4534db1a6806" />
+ <img width="919" height="651" alt="Secure_Static_Website" src="https://github.com/user-attachments/assets/3a22b2bf-6b39-4181-ae54-a942c8648c77" />
+
 
       
 ### Main Components: 
