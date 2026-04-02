@@ -43,9 +43,7 @@ Using IaC ensures reproducibility, version control, and automated deployments. T
 
 ## 3. Architecture Overview
 <a name="#3-architecture-overview"></a>      
- <img width="919" height="651" alt="Secure_Static_Website" src="https://github.com/user-attachments/assets/3a22b2bf-6b39-4181-ae54-a942c8648c77" />
-
-
+ <img width="919" height="651" alt="Secure_Static_Website" src="https://github.com/user-attachments/assets/38a5c607-94cd-45f9-82d9-54ac223445c0" />
       
 ### Main Components: 
 
