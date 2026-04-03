@@ -40,19 +40,19 @@ Using IaC ensures reproducibility, version control, and automated deployments. T
 
 ### Main Components: 
 
-:open_file_folder:[Cloudfront](./infrastructur/modules/distribution/cloudfront.tf) : Distribution
+:open_file_folder:[Cloudfront](./infrastructure/modules/distribution/cloudfront.tf) : Distribution
 <details>
 </details>
 
-:open_file_folder:[ACM](./infrastructur/modules/distribution/acm.tf) : Encryption in transit
+:open_file_folder:[ACM](./infrastructure/modules/distribution/acm.tf) : Encryption in transit
 <details>
 </details>
 
-:open_file_folder:[Route53](./infrastructur/modules/distribution/route53.tf) : Routing to Cloudfront
+:open_file_folder:[Route53](./infrastructure/modules/distribution/route53.tf) : Routing to Cloudfront
 <details>
 </details>
 
-:open_file_folder:[WAF](./infrastructur/modules/waf/main.tf) : Defense against common web attacks
+:open_file_folder:[WAF](./infrastructure/modules/waf/main.tf) : Defense against common web attacks
 <details>
 </details>
 
