@@ -26,8 +26,8 @@
 
 ## 1. Introduction 
 <a name="#1-introduction"></a>     
-&emsp;&emsp;This lab walks through distributing a static website, hosted in S3, via the Cloudfront content delivery network, ensuring a global and fast access with its caching feature.
-In-flight traffic encryption is managed by ACM with a TLS certificate.
+&emsp;&emsp;This lab walks through distributing a static website, hosted in S3, via the Cloudfront content delivery network, ensuring a global and fast access with its caching feature.\
+In-flight traffic encryption is managed by ACM with a TLS certificate.\
 WAF is used to detect and block commo web attacks.
 
 <br/>
