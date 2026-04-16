@@ -211,7 +211,7 @@ Potential enhancements to the infrastructure include:
 │   ├── variables.tf
 │   ├── outputs.tf
 │   └── modules/
-|── website/                     # generic website files
+├── website/                     # generic website files
 ├── tests.sh                     # Infrastructure validation tests file
 └── README.md                    # This file
 ```
