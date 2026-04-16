@@ -196,11 +196,11 @@ Potential enhancements to the infrastructure include:
 ## 9. References
 <a name="#9-references"></a>  
 
-:link:[Web Application Firewall - AWS Docs](https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html)
-:link:[AWS Certificate Manager - AWS Docs](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html))
-:link:[Route53 - AWS Docs](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html))
-:link:[Cloudfront - AWS Docs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html))  
-:link:[AWS Pricing Calculator](https://calculator.aws/#/)  
+:link:[Web Application Firewall - AWS Docs](https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html)\
+:link:[AWS Certificate Manager - AWS Docs](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html)\
+:link:[Route53 - AWS Docs](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)\
+:link:[Cloudfront - AWS Docs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)\
+:link:[AWS Pricing Calculator](https://calculator.aws/#/)\
 :link:[AWS Free Tier](https://aws.amazon.com/free) 
 
 <br/>
