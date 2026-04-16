@@ -64,9 +64,7 @@ WAF is used to detect and block commo web attacks.
 <br/>
 
 ## 4. Deployment
-<a name="#4-deployment"></a>
-&emsp;&emsp;The distribution is deployed with Terraform, enabling fast, repeatable, automated, and version-controlled deployments.  
-Here are the main steps to reproduce the environment:  
+<a name="#4-deployment"></a> 
 
 <br/>
 
