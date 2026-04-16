@@ -196,6 +196,7 @@ Potential enhancements to the infrastructure include:
 ## 9. References
 <a name="#9-references"></a>  
 
+:linl:[Hosting Static Websites on AWS - AWS Whitepaper](https://docs.aws.amazon.com/pdfs/whitepapers/latest/build-static-websites-aws/build-static-websites-aws.pdf)\
 :link:[Web Application Firewall - AWS Docs](https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html)\
 :link:[AWS Certificate Manager - AWS Docs](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html)\
 :link:[Route53 - AWS Docs](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)\
