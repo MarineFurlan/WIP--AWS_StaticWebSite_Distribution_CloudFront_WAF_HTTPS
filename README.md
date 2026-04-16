@@ -107,7 +107,7 @@ Apply complete!
 
 <br/>
 
-Step 3 - Confirm the subscription to security alerts in your email inbox.
+Step 3 -
 
 <br/>
 
