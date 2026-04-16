@@ -215,6 +215,9 @@ Potential enhancements to the infrastructure include:
 ├── tests.sh                     # Infrastructure validation tests file
 └── README.md                    # This file
 ```
+<br/>
+<br/>
+<br/>
 
 ## Author
 **Furlan Marine - Certified AWS Solutions Architect - Associate** \
