@@ -17,6 +17,7 @@
 - [Pricing](#7-pricing)
 - [Improvements & Next Steps](#8-improvements--next-steps)
 - [References](#9-references)
+- [Repository Structure](#10-repo-structure)
 <br/>
 <br/>
 <br/>
@@ -182,8 +183,8 @@ The estimate below is based on the [AWS Pricing Calculator](https://calculator.a
 <br/>
 <br/>
 
-## 7. Improvements & Next Steps
-<a name="#7-improvements--next-steps"></a>
+## 8. Improvements & Next Steps
+<a name="#8-improvements--next-steps"></a>
 
 Potential enhancements to the infrastructure include:  
  
@@ -192,14 +193,28 @@ Potential enhancements to the infrastructure include:
 <br/>
 <br/>
 
-## 8. References
-<a name="#8-references"></a>   
+## 9. References
+<a name="#9-references"></a>   
 :link:[AWS Pricing Calculator](https://calculator.aws/#/)  
 :link:[AWS Free Tier](https://aws.amazon.com/free) 
 
 <br/>
 <br/>
 <br/>
+
+## 10. Repository Structure
+<a name="#10-repo-structure"></a> 
+
+```bash
+├── infrastructure/              # IaC code
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── modules/
+|── website/                     # generic website files
+├── tests.sh                     # Infrastructure validation tests file
+└── README.md                    # This file
+```
 
 ## Author
 **Furlan Marine - Certified AWS Solutions Architect - Associate** \
