@@ -32,61 +32,39 @@ Security and monitoring are handled with WAF (Web Application Firewal) to restri
 
 
 ## 2. Design Decisions   
-<a name="#2-design-decisions"></a>
-### <ins>Terraform</ins>
-Using IaC ensures reproducibility, version control, and automated deployments. The infrastructure can be deployed or destroyed with a single command, optimizing costs and agility.
+<br/>
+
+| Components                                       | Justification                                                                               |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Terraform**                                    | Reproducibility, version control, automated deployments, costs optimization                 | 
+|  |                               | 
+|                |  | 
+|               |                        |               
+|                      |                                                         |
+
+<br/>
+<br/>
+<br/>
 
 ## 3. Architecture Overview
 <a name="#3-architecture-overview"></a>      
  <img width="919" height="651" alt="Secure_Static_Website" src="https://github.com/user-attachments/assets/e8a1fd66-fb92-4b31-aedc-71a26f50b31c" />
 
-### Main Components: 
-
-:open_file_folder:[Cloudfront](./infrastructure/modules/distribution/cloudfront.tf) : Distribution
-
-:open_file_folder:[ACM](./infrastructure/modules/distribution/acm.tf) : Encryption in transit
-<details>
-
-<summary>See ACM attach in Cloudfront code</summary>
-
-```terraform
-viewer_certificate {
-    acm_certificate_arn      = aws_acm_certificate.cert.arn
-    ssl_support_method       = "sni-only"
-    minimum_protocol_version = "TLSv1.2_2021"
-  }
-```
-
-</details>
-
-:open_file_folder:[Route53](./infrastructure/modules/distribution/route53.tf) : Routing to Cloudfront
-
-:open_file_folder:[WAF](./infrastructure/modules/waf/main.tf) : Defense against common web attacks
-
-## 4. Features
-<a name="#4-features"></a>   
-
 <br/>
+<br/>     
 
-- **_Security_**: 
-  
-<br/>
-
-- **_Monitoring_**: 
-
-<br/>
-
-- **_Reproductibility_**: 
-
-<br/>
-
-- **_Isolation_**:
+| Components        | AWS Service                                                      | Role                                                          | 
+|-------------------|------------------------------------------------------------------|---------------------------------------------------------------|
+| **Distribution**  | CloudFront                                                       | Content delivery, caching, encrypted traffic with origin      |
+| **Security**      | WAF, ACM                                                         | In-flight website encryption, Firewall against common attacks | 
+| **Routing**       | Route53                                                          | Routing dns requests                                          |                       
+| **Storage**       | S3                                                               | Website files storage                                         |
 
 <br/>
 <br/>
 <br/>
 
-## 5. Deployment Steps
+## 4. Deployment
 <a name="#5-deployment-steps"></a>
 &emsp;&emsp;The distribution is deployed with Terraform, enabling fast, repeatable, automated, and version-controlled deployments.  
 Here are the main steps to reproduce the environment:  
