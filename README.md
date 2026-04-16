@@ -25,9 +25,10 @@
 
 ## 1. Introduction 
 <a name="#1-introduction"></a>     
-&emsp;&emsp;This project showcases the secure distribution of a static website hosted on S3.         
-It distributes a static wesite with CloudFront and Route53, using a TLS certificate (ACM) to encrypt data in transit.  
-Security and monitoring are handled with WAF (Web Application Firewal) to restrict and detect common web attacks.
+&emsp;&emsp;This lab walks through distributing a static website, hosted in S3, via the Cloudfront content delivery network, ensuring a global and fast access with its caching feature.
+In-flight traffic encryption is managed by ACM with a TLS certificate.
+WAF is used to detect and block commo web attacks.
+
 <br/>
 <br/>
 
